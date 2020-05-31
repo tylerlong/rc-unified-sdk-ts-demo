@@ -1,0 +1,23 @@
+{
+  "license": "MIT",
+  "scripts": {
+    "check": "gts check",
+    "clean": "gts clean",
+    "compile": "tsc",
+    "fix": "gts fix",
+    "prepare": "yarn run compile",
+    "pretest": "yarn run compile",
+    "posttest": "yarn run check"
+  },
+  "dependencies": {
+    "ringcentral-unified": "^0.5.4",
+    "ws": "^7.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.6",
+    "@types/ws": "^7.2.4",
+    "gts": "^2.0.2",
+    "typescript": "^3.9.3",
+    "yarn-upgrade-all": "^0.5.2"
+  }
+}
