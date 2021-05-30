@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "ringcentral-unified": "^0.5.4",
-    "ws": "^7.3.0"
+    "ws": "^7.4.6"
   },
   "devDependencies": {
     "@types/node": "^14.0.6",
